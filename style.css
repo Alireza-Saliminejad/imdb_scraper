@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* sets default font family */
+    background-color: #fff; /* sets default background color */
+    color: #5f6368; /* sets default text color */
+    line-height: 1.5; /* sets default line height */
+    padding: 20px; /* adds padding to the body */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* sets heading font weight */
+    margin-bottom: 10px; /* adds margin below each heading */
+}
+
+p {
+    margin-bottom: 20px; /* adds margin below paragraphs */
+}
+
+a {
+    color: #4285f4; /* sets default link color */
+    text-decoration: none; /* removes underline from links */
+    cursor: pointer; /* sets default cursor to pointer for links */
+}
+
+a:hover {
+    text-decoration: underline; /* adds underline to links when hovered */
+}
+
+/* Form Styles */
+.form-container {
+    display: flex; /* creates a flexible container */
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+form {
+    max-width: 80%; /* sets max width of form */
+    margin: auto; /* centers form horizontally */
+    background-color: #f1f1f1; /* sets form background color */
+    border: 1px solid #c9c9c9; /* sets form border */
+    border-radius: 8px; /* rounds form corners */
+    padding: 20px; /* adds padding to the form */
+}
+
+.form-label-group {
+    display: flex; /* creates a flexible container for label and input */
+    margin-bottom: 20px; /* adds margin below each label-input group */
+}
+
+.form-label-group label {
+    color: #999; /* sets label color */
+    font-size: 16px; /* sets label font size */
+    font-weight: 500; /* sets label font weight */
+    margin-bottom: 5px; /* adds space between label and input */
+}
+
+.form-label-group input {
+    padding: 10px; /* adds padding to input */
+    font-size: 18px; /* sets input font size */
+    border: none; /* removes input border */
+    border-radius: 4px; /* rounds input corners */
+    box-shadow: 0 0 0 2px #fff, 0 2px 2px rgba(0, 0, 0, 0.05); /* adds a subtle border */
+}
+
+.go {
+    text-align: center;
+}
+
+#movieName {
+    margin-right: 10px; /* adds space between input and submit button */
+    flex: 1; /* sets input to fill remaining space */
+}
+
+input[type="submit"] {
+    background-color: #4285f4; /* sets submit button background color */
+    color: #fff; /* sets submit button text color */
+    border: none; /* removes submit button border */
+    border-radius: 4px; /* rounds submit button corners */
+    text-transform: uppercase; /* transforms text to uppercase */
+    font-weight: bold; /* sets submit button font weight */
+    padding: 16px 24px; /* sets submit button padding */
+    cursor: pointer; /* sets pointer cursor for submit button */
+    margin-top: 20px; /* adds space above submit button */
+    transition: background-color 0.2s ease-in-out; /* adds a transition effect when hovered */
+
+}
+
+input[type="submit"]:hover {
+    background-color: #2962ff; /* sets submit button background color when hovered */
+
+}
